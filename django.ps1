@@ -14,4 +14,3 @@ New-Item .gitignore -Value "\env"
 code .
 echo "Exiting...."
 Exit
-
