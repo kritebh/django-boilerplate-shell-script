@@ -25,4 +25,4 @@ Similarly if you don't want to use separate name for folder and project name the
 
 What if you want to create boilerplate and also start the development server.
 
-For this you can use i.e. "DjangoWithServer.ps1"
+For this you can use i.e. "djangoWithServer.ps1"
