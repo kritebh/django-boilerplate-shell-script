@@ -1,4 +1,4 @@
-## Boiler Plate for Setting Up Django Project
+# Script for Setting Up Django Project
 
 It is a script for automating the setup of Django Project
 
@@ -10,18 +10,31 @@ It is a script for automating the setup of Django Project
 - Provide the Django Project Name
 - Voila Your Project will open in VS Code
 
-### How to customize it for your own preferences
+## Prerequisite
+
+- Python Installed
+- Git Installed
+- Visual Studio Code Installed
+
+[Python Download](https://www.python.org/downloads/)
+
+[Git Download](https://git-scm.com/downloads)
+
+[Visual studio Code Download](https://code.visualstudio.com/download)
+
+
+## How to customize it for your own preferences
 
 So let's say you don't want to open it in VS Code 
 
 > Simply remove the "code ." from line 14
 
 
-### Just Project Name
+## Just Project Name
 
 Similarly if you don't want to use separate name for folder and project name then you can use the second code i.e. "djangoOnlyProject.ps1"
 
-### Start The Server
+## Start The Server
 
 What if you want to create boilerplate and also start the development server.
 
