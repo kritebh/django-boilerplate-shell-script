@@ -32,10 +32,10 @@ So let's say you don't want to open it in VS Code
 
 ## Just Project Name
 
-Similarly if you don't want to use separate name for folder and project name then you can use the second code i.e. "djangoOnlyProject.ps1"
+Similarly if you don't want to use separate name for folder and project name then you can use the second script i.e. "djangoOnlyProject.ps1"
 
 ## Start The Server
 
-What if you want to create boilerplate and also start the development server.
+What if you want to create boilerplate along with the development server.
 
-For this you can use i.e. "djangoWithServer.ps1"
+For this you can use third script i.e. "djangoWithServer.ps1"
