@@ -1,15 +1,23 @@
-$folder = Read-Host "Enter the project name "
+$folder = Read-Host "Enter the project name (Defualt: config)"
+if(!$folder) {$folder = "config"}
 mkdir $folder
+
 cd $folder
 echo "Creating Virtual Environment"
 python -m venv env
-cd env/Scripts
-.\activate
-cd ../..
+.\env\Scripts\activate
 pip install django
-django-admin startproject $folder
+django-admin startproject $folder .
+
+New-Item .gitignore -Value "env/"
+pip freeze > requirements.txt
+deactivate
+
 git init
-New-Item .gitignore -Value "\env"
+#git add .
+#git commit -m "Initial"
+
 code .
+
 echo "Exiting...."
 Exit
